@@ -11,6 +11,22 @@ public class PersonServices {
 	
 	private final AtomicLong counter = new AtomicLong();
 	
+	public Person create (Person person) {
+		
+		
+		return person;
+	}
+	
+	
+	public Person update(Person person) {
+		
+		return person;
+	}
+	
+	public void delete(String id) {
+		
+	}
+	
 	public Person findById(String id) {
 		Person person = new Person();
 		person.setId(counter.incrementAndGet());
@@ -39,5 +55,7 @@ public class PersonServices {
 		person.setGender("Sexo: "+i);
 		return person;
 	}
+	
+	
 
 }
