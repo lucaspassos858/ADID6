@@ -5,7 +5,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 import br.edu.ifsp.data.model.Person;
-import br.edu.ifsp.data.vo.PersonVO;
+import br.edu.ifsp.data.vo.v1.PersonVO;
 
 public class MockPerson {
 

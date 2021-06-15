@@ -13,12 +13,12 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import br.edu.ifsp.data.vo.PersonVO;
+import br.edu.ifsp.data.vo.v1.PersonVO;
 import br.edu.ifsp.data.vo.v2.PersonVOV2;
 import br.edu.ifsp.services.PersonServices;
 
 @RestController
-@RequestMapping("/person")
+@RequestMapping("/api/person/v1")
 public class PersonController {
 	
 	@Autowired

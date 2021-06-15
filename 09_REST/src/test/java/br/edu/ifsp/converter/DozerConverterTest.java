@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import br.edu.ifsp.converter.mocks.MockPerson;
 import br.edu.ifsp.data.model.Person;
-import br.edu.ifsp.data.vo.PersonVO;
+import br.edu.ifsp.data.vo.v1.PersonVO;
 
 import java.util.List;
 

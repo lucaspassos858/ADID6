@@ -8,7 +8,7 @@ import org.springframework.stereotype.Service;
 import br.edu.ifsp.converter.DozerConverter;
 import br.edu.ifsp.converter.custom.PersonConverter;
 import br.edu.ifsp.data.model.Person;
-import br.edu.ifsp.data.vo.PersonVO;
+import br.edu.ifsp.data.vo.v1.PersonVO;
 import br.edu.ifsp.data.vo.v2.PersonVOV2;
 import br.edu.ifsp.repository.PersonRepository;
 
